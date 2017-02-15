@@ -13,8 +13,6 @@ DY = 0.29
 set multiplot
 set offset 0,0,graph 0.05, graph 0.05
 
-set tmargin at screen TOP-2*DY
-set bmargin at screen TOP-3*DY
 set style line 1 lc rgb '#006ad' lt 2 lw 1 pt 7 ps 1
 set title "Weekly Usage"
 set xlabel "Day"
@@ -22,15 +20,17 @@ set ylabel "Time Usage (hrs)"
 set grid
 set xdata time
 set timefmt "%Y-%m-%d %H:%M:%S"
-set xrange ["2011-01-01 00:00:00.0" : "2011-01-31 23:59:59.9"]
 set format x "%d.%m"
-plot "56135a80-January2011UsageTimes.dat" using 1:3 with linespoints ls 3
 
+set tmargin at screen TOP-2*DY
+set bmargin at screen TOP-3*DY
+set xrange ["2011-01-03 00:00:00.0" : "2011-01-09 23:59:59.9"]
+plot "56135a80-Jan2011Week1.dat" using 1:3 with linespoints ls 3
 
 set tmargin at screen TOP
 set bmargin at screen TOP-DY
-unset xlabel
-set style line 1 lc rgb '#006ad' lt 2 lw 1 pt 7 ps 1
-plot sin(x)
+set xrange ["2011-01-10 00:00:00.0" : "2011-01-16 23:59:59.9"]
+plot "56135a80-Jan2011Week2.dat" using 1:3 with linespoints ls 3
+
 
 unset multiplot; set output
