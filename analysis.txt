@@ -20,6 +20,8 @@ User 11f73e79 has 502 sessions
 
 No key events for user 11f73e79
 
+Many source types
+
 
 ==== user dcdc0fc0 ====
 
