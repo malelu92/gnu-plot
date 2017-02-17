@@ -1,0 +1,48 @@
+==== user 5749374a ====
+
+user 5749374a has only one session with mouse_key interaction as true
+
+User 5749374a has 1156 sessions
+
+keyevent only monitored for 806 rows from which 648 are regarding user 5749374a
+
+
+==== user 3920542c ====
+
+no keyevent for user 3920542c
+
+User 3920542c has 675 sessions
+
+
+==== user 11f73e79 ==== 
+
+User 11f73e79 has 502 sessions
+
+No key events for user 11f73e79
+
+
+==== user dcdc0fc0 ====
+
+User dcdc0fc0 has 462 sessions
+
+No key events for user dcdc0fc0
+
+
+==== 56135a80 ====
+
+User 56135a80 has 371 sessions
+
+No key events for user 56135a80
+
+==== 2203b52e ====
+
+User 2203b52e has 354 sessions
+
+No key events for user 2203b52e
+
+
+==== c4541510 ====
+
+User c4541510 has 333 sessions
+
+No key events for user c4541510
