@@ -7,7 +7,7 @@ if (!exists("MP_BOTTOM")) MP_BOTTOM = .1
 if (!exists("MP_TOP"))    MP_TOP = .9
 if (!exists("MP_GAP"))    MP_GAP = .13
 
-set multiplot layout 2,2 columnsfirst title "December 2010 Weekly Usage" font ",25\" margins screen MP_LEFT, MP_RIGHT, MP_BOTTOM, MP_TOP spacing screen MP_GAP
+set multiplot layout 2,2 columnsfirst title "January 2011 Weekly Usage" font ",25\" margins screen MP_LEFT, MP_RIGHT, MP_BOTTOM, MP_TOP spacing screen MP_GAP
 
 set linestyle 1 lw 3
 set xlabel "Day" font ",20"
@@ -21,24 +21,24 @@ set datafile separator "|"
 set title font ",25"
 
 # ---- plot week 1 ----
-set title "Environment usage through time"
-set xrange ["2010-12-05 00:00:00.0" : "2010-12-11 23:59:59.9"]
-plot "11f73e79-Dec2012Week1.dat" using 2:6:yticlabels(5) with linespoints ls 3 lw 3
+set title "Week 1"
+set xrange ["2011-01-03 00:00:00.0" : "2011-01-09 23:59:59.9"]
+plot "11f73e79-Jan2011Week1.dat" using 2:6:yticlabels(5) with linespoints ls 3 lw 3
 
 # ---- plot week 3 ----
 set title "Week 3"
-set xrange ["2010-12-19 00:00:00.0" : "2010-12-25 23:59:59.9"]
-plot "11f73e79-Dec2012Week3.dat" using 2:6:yticlabels(5) with linespoints ls 3 lw 3
+set xrange ["2011-01-17 00:00:00.0" : "2011-01-23 23:59:59.9"]
+plot "11f73e79-Jan2011Week3.dat" using 2:6:yticlabels(5) with linespoints ls 3 lw 3
 
 # ---- plot week 2 ----
 set title "Week 2"
-set xrange ["2010-12-12 00:00:00.0" : "2010-12-18 23:59:59.9"]
-plot "11f73e79-Dec2012Week2.dat" using 2:6:yticlabels(5) with linespoints ls 3 lw 3
+set xrange ["2011-01-10 00:00:00.0" : "2011-01-16 23:59:59.9"]
+plot "11f73e79-Jan2011Week2.dat" using 2:6:yticlabels(5) with linespoints ls 3 lw 3
 
 # ---- plot week 4 ----
 set title "Week 4"
-set xrange ["2010-12-26 00:00:00.0" : "2011-01-01 23:59:59.9"]
-plot "11f73e79-Dec2012Week4.dat" using 2:6:yticlabels(5) with linespoints ls 3 lw 3
+set xrange ["2011-01-24 00:00:00.0" : "2011-01-30 23:59:59.9"]
+plot "11f73e79-Jan2011Week4.dat" using 2:6:yticlabels(5) with linespoints ls 3 lw 3
 
 unset multiplot
 unset output
